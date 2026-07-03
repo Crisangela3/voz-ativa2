@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Suas cores personalizadas de preferência */
+  --color-marrom-principal: #5C4033;
+  --color-marrom-escuro: #3D2B1F;
+  --color-creme-fundo: #FFFDD0;
+  --color-creme-claro: #FDFBF7;
+  
+  /* Mantendo as cores do projeto antigo se precisar usar */
+  --color-terracota: #A65D37;
+  --color-verde-oliva: #7D8C69;
+  --color-bege-fundo: #F2E8D5;
+}
+
+/* Caso queira definir uma cor de fundo padrão para todo o aplicativo */
+body {
+  background-color: var(--color-creme-fundo);
+  color: var(--color-marrom-escuro);
+  font-family: sans-serif;
+}
